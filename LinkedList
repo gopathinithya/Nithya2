@@ -1,0 +1,22 @@
+package mypackage;
+
+import java.util.LinkedList;
+
+public class Animal 
+{
+	public static void main(String[] args)
+	 {
+		 LinkedList<String> list= new LinkedList<String>();
+		 list.add("Lion");
+		 list.add("is");
+		 list.add(2,"an");
+		 list.add("animal");
+		 System.out.println("LinkedList:"+list);
+		 list.remove("an");
+		 System.out.println("After object Removal:"+list);
+		 list.set(2,"the");
+		 System.out.println("After setting an Index :"+list);
+	 }
+		 
+		 
+}
