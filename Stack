@@ -1,0 +1,22 @@
+package mypackage;
+import java.util.Stack;
+
+public class Fruits
+{
+	public static void main(String[] args)
+	{
+	Stack<String> stack=new Stack<String>();
+		stack.push("Orange");
+		stack.push("Apple");
+		stack.push("Grapes");
+		stack.push("Banana");
+		stack.push("Jack");
+		System.out.println("Stack:"+stack);
+		String fruit=stack.peek();
+		System.out.println("Fruit at top location:"+fruit);
+		int location=stack.search("Apple");
+		System.out.println("Location of Apple:"+location);
+		stack.pop();
+		System.out.println("Stack after poped:"+stack);
+	}
+}
