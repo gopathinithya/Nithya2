@@ -1,0 +1,30 @@
+package mypackage;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+
+public class Colour 
+{
+	public static void main(String[] args)
+	{
+		HashSet<String> set=new HashSet<String>();
+		set.add("Red");
+		set.add("Blue");
+		set.add("Black");
+		set.add("Yellow");
+		set.add("Orange");
+		set.add("Brown");
+		System.out.println("HashSet:"+set);
+		set.remove("yellow");
+		System.out.println("HashSet:"+set);
+		Iterator<String> i= set.iterator();
+		while(i.hasNext())
+		{
+		System.out.println(i.next());
+		}
+		set.add("Blue");
+		System.out.println("HashSet:"+set);
+	}
+		
+}
