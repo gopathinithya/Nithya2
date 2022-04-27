@@ -1,0 +1,22 @@
+package mypackage;
+
+import java.util.ArrayDeque;
+
+public class Arraydequeue
+{
+	public static void main(String[] args)
+	{
+		ArrayDeque<String> adeque=new ArrayDeque<String>();
+		adeque.add("Nithya");
+		adeque.add("Leha");
+		adeque.add("Sara");
+		adeque.add("Ramesh");
+		adeque.add("Thirumala");
+		System.out.println("ArrayDeque:"+adeque);
+		System.out.println("After adding last name:"+adeque.offerLast("Varma"));
+		System.out.println("After Removing Element:"+adeque.remove());
+		System.out.println(adeque.peek());
+		System.out.println(adeque.poll());
+		
+	}
+}
