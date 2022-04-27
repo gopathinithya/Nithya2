@@ -1,0 +1,25 @@
+package mypackage;
+
+import java.util.Vector;
+
+public class Employees 
+{
+	public static void main(String[] args)
+	{
+		Vector<Integer> vector=new Vector<Integer>();
+		vector.add(190);
+		vector.add(140);
+		vector.add(150);
+		vector.addElement(299);
+		vector.addElement(178);
+		System.out.println("Vector Elements:"+vector);
+		vector.size();
+		System.out.println("Size of Vector Elements:"+vector.size());
+		vector.removeElementAt(2);
+		System.out.println("After removing element vector elemnts are:");
+		vector.set(3, 12);
+		System.out.println("After setting Element vector Elements are:");
+		
+		
+	}
+}
